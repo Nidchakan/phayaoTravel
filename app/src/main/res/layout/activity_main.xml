@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/a">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:src="@drawable/phy"
+            android:id="@+id/pic"
+            android:layout_gravity="center"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/btnLogin"
+                    android:layout_marginTop="30dp"
+                    android:text="Login"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:fontFamily="@font/printable">
+
+
+                </Button>
+
+
+            </LinearLayout>
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="skip.."
+                android:layout_gravity="center"
+                android:fontFamily="@font/printable"
+                android:textSize="18sp"
+                android:paddingTop="5dp"
+                android:textColor="@android:color/black"
+                android:id="@+id/txt_skip"/>
+
+
+        </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

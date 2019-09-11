@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="10">
+        
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="10">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/typeRoom_image"
+                android:scaleType="fitXY"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/typeRoom_name"
+                android:text="Name"
+                android:fontFamily="@font/printable"
+                android:textSize="30sp"
+                android:layout_gravity="bottom"
+                android:padding="8dp"
+                android:background="@color/colorButton"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+
+        </FrameLayout>
+        
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/card_typeroom">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="8dp">
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="ราคา : "
+                            android:fontFamily="@font/printable"
+                            android:textSize="28sp"
+                            android:textStyle="bold"/>
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/typeRoom_cost"
+                            android:fontFamily="@font/printable"
+                            android:textSize="28sp"
+                            android:paddingLeft="15dp"
+                            android:text="ffff"
+                            android:layout_marginStart="50sp"
+                            android:paddingTop="2dp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="ข้อมูลเพิ่มเติม : "
+                        android:fontFamily="@font/printable"
+                        android:textSize="28sp"
+                        android:textStyle="bold"
+                        android:layout_below="@+id/typeRoom_cost"/>
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/typeRoom_information"
+                        android:fontFamily="@font/printable"
+                        android:textSize="28sp"
+                        android:paddingLeft="37dp"
+                        android:text="ffff"
+                        android:layout_marginStart="105sp"
+                        android:paddingTop="1dp"
+                        android:layout_below="@+id/typeRoom_cost"/>
+
+
+
+                </RelativeLayout>
+
+            </ScrollView>
+
+        </android.support.v7.widget.CardView>
+        
+    </LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>

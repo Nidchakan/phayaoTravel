@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:theme="@style/Widget.AppCompat.Button.Borderless"
+            android:text="ที่เที่ยว"
+            android:fontFamily="@font/printable"
+            android:textSize="20sp"
+            android:id="@+id/btn_travel"
+            android:background="@drawable/custom_button"
+            android:textColor="@color/red"
+            android:layout_marginEnd="20sp"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:theme="@style/Widget.AppCompat.Button.Borderless"
+            android:text="ร้านอาหาร"
+            android:fontFamily="@font/printable"
+            android:textSize="20sp"
+            android:id="@+id/btn_eat"
+            android:background="@drawable/custom_button_food"
+            android:textColor="@android:color/holo_green_dark"
+            android:layout_marginEnd="20sp"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:theme="@style/Widget.AppCompat.Button.Borderless"
+            android:text="ที่พัก"
+            android:fontFamily="@font/printable"
+            android:textSize="20sp"
+            android:id="@+id/btn_rest"
+            android:background="@drawable/custom_button_rest"
+            android:textColor="@color/colorButton"
+            android:layout_marginEnd="20sp"/>
+
+    </LinearLayout>
+
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="4dp"
+        android:id="@+id/recycler_place_Ac" />
+
+</LinearLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "97173315655",
+    "firebase_url": "https://phayaotravel-721cb.firebaseio.com",
+    "project_id": "phayaotravel-721cb",
+    "storage_bucket": "phayaotravel-721cb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:97173315655:android:70222941c6458835",
+        "android_client_info": {
+          "package_name": "com.phayaotown.travel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "97173315655-koaoigfh49s5ke3u09leq6dah4e0mcgv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.phayaotown.travel",
+            "certificate_hash": "2c2781161a952cb34f3ae8480b7ef0c88684314a"
+          }
+        },
+        {
+          "client_id": "97173315655-qe243dhd3qdnoqhog8mcoo5ktg81np6r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAutK77fHnkI1-LA9qzYc_FgDL6vxVFjHg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "97173315655-qe243dhd3qdnoqhog8mcoo5ktg81np6r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
